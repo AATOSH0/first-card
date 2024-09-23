@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "gilroy";
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.box {
+    /* background-color: blue; */
+    box-shadow: 0 0 14px 1px black;
+    border-radius: 18px;
+    height: 500px;
+    width: 350px;
+    position: absolute;
+    left: 40vw;
+    top: 7vw;
+}
+
+.box-1 {
+    height: 45%;
+    width: 330px;
+    /* box-shadow: 0 0 10px 1px black; */
+    border-radius: 17px;
+    margin: 10px;
+    position: relative;
+    top: 0;
+    background-image: url("tanya-yarosh-ZByCF-zdeRs-unsplash.jpg");
+    background-size: cover;
+}
+
+.box-2 {
+    padding-left: 20px;
+    margin-top: 26px;
+}
+
+.box-2 span {
+    /* margin-top: 10px; */
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 5px;
+    margin-right: 8px;
+    border-radius: 27px;
+}
+
+.box-3 h1 {
+    margin:17px 17px 15px 15px;
+}
+
+.box-3 p {
+    padding: 0 10px 0 10px;
+}
+
+.box-4 {
+    width: 100px;
+    text-align: center;
+    background-color: rgb(149, 149, 248);
+    margin-top: 10px;
+    position: relative;
+    left: 40% ;
+    border-radius: 20px;
+}
+
+.box-2>span:hover {
+    box-shadow: 0 0 14px 1px blue;
+}
+
+.box-4:hover {
+    background-color: blue;
+    box-shadow: 0 0 14px 2px blue;
+}
